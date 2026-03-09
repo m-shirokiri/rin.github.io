@@ -80,26 +80,3 @@ function reply(id){
 }
 
 loadMessages();
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAwal80rw8QMe712FGLtir7usi0Q2JJDiw",
-  authDomain: "myproject-72cb2.firebaseapp.com",
-  databaseURL: "https://myproject-72cb2-default-rtdb.firebaseio.com",
-  projectId: "myproject-72cb2",
-  storageBucket: "myproject-72cb2.firebasestorage.app",
-  messagingSenderId: "387447911755",
-  appId: "1:387447911755:web:742bce8b85814160e024ce",
-  measurementId: "G-L84KLZX3D1"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
